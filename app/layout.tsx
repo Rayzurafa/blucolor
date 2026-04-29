@@ -22,21 +22,8 @@ export const metadata: Metadata = {
   description: 'Blu Color S.a.s.: professionisti nel settore delle tinteggiature civili e industriali nel Veronese. Sede a Caselle di Sommacampagna (VR).',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/images/RayOutreach.png',
+    apple: '/images/RayOutreach.png',
   },
 }
 
