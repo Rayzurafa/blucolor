@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -h \"opacity\" .next/dev/static/chunks/app_globals_css*.css)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(git init *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
