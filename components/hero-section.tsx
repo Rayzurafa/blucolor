@@ -103,7 +103,7 @@ export function HeroSection() {
       </nav>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex min-h-[calc(100vh-88px)] flex-col justify-center px-6 pb-0 md:pb-20 md:px-12 lg:px-16">
+      <div className="relative z-10 flex min-h-[calc(100vh-88px)] flex-col justify-center px-6 pb-32 md:pb-20 md:px-12 lg:px-16">
         <div className="max-w-2xl lg:max-w-3xl">
           {/* Pill badge */}
           <div className={cn(
