@@ -69,7 +69,10 @@ export function AboutSection() {
       <div className="relative w-full overflow-hidden">
         <div
           className="flex w-max"
-          style={{ animation: "marquee 35s linear infinite" }}
+          style={{
+            animation: "marquee 35s linear infinite",
+            willChange: "transform",
+          }}
         >
           {allImages.map((image, index) => (
             <div
@@ -80,6 +83,10 @@ export function AboutSection() {
                 src={image.src}
                 alt={image.alt}
                 fill
+                sizes="(max-width: 768px) 288px, (max-width: 1024px) 320px, 384px"
+                quality={72}
+                priority={index < 2}
+                loading={index < 2 ? "eager" : "lazy"}
                 className="object-cover"
               />
             </div>
