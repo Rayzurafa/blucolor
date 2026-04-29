@@ -35,7 +35,7 @@ export function HeroSection() {
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
         {/* Overlay gradiente — mobile più scuro per leggibilità */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/50 to-black/70 md:bg-gradient-to-r md:from-black/60 md:via-black/30 md:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/35 to-black/45 md:bg-gradient-to-r md:from-black/60 md:via-black/30 md:to-transparent" />
       </div>
 
       {/* Navigation */}
@@ -103,7 +103,7 @@ export function HeroSection() {
       </nav>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex min-h-[calc(100vh-88px)] flex-col justify-end pb-14 px-6 md:justify-center md:pb-20 md:px-12 lg:px-16">
+      <div className="relative z-10 flex min-h-[calc(100vh-88px)] flex-col justify-center px-6 pb-0 md:pb-20 md:px-12 lg:px-16">
         <div className="max-w-2xl lg:max-w-3xl">
           {/* Pill badge */}
           <div className={cn(
